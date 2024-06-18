@@ -1,0 +1,21 @@
+.banner-container {
+    position: relative;
+    padding: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Asegúrate de que el contenedor no muestre contenido fuera de su área */
+}
+
+.banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    filter: brightness(0.4); /* Ajusta la luminosidad */
+    z-index: -1; /* Asegúrate de que la imagen esté detrás del texto y los botones */
+}

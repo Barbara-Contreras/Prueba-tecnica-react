@@ -1,0 +1,8 @@
+.ellipse-image {
+    position: absolute;
+    top: 350px; /* Ajusta esta propiedad según sea necesario */
+    right: 0;
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima de otros elementos */
+    border: none;
+}

@@ -1,0 +1,25 @@
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: center; 
+    align-items: flex-start; 
+    height: 100%; 
+    margin-top: 10px;
+}
+
+.banner-button {
+    background-color: #D4FF00;
+    border-radius: 20px;
+    color: #000000;
+    font-weight: bold;
+    padding: 6px 16px;
+    border: 1px solid #D4FF00;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.banner-button:hover,
+.banner-button:focus,
+.banner-button:active {
+    background-color: #FF93F4; /* Cambia el color al hacer hover, focus o click */
+}

@@ -1,0 +1,23 @@
+.section-container {
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    padding: 10px;
+    transition: text-decoration 0.2s ease; /* Efecto de transición suave */
+
+    /* Estilo inicial */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+}
+
+.section-container:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+    text-decoration-color: #D4FF00;
+}
+
+.section-name {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.clicked {
+    color: #D4FF00;
+}

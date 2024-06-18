@@ -1,0 +1,41 @@
+.feature-items-container {
+    display: flex;
+    gap: 40px;/* Ajusta el espacio entre los items */
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item-container {
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.1), 2px 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 50px;
+    /* Establece una altura mínima */
+    text-align: center;
+    /* Centra el texto dentro del contenedor */
+    border-radius: 10px;
+}
+
+.cohete-image {
+    width: 50%;
+    height: auto; 
+    margin-bottom: 0px;
+}
+
+.item-title {
+    color: #FF93F4;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.item-text {
+    font-size: 9px;
+    margin-top: 5px;  /* Añade espacio superior al texto */
+    letter-spacing: 0.5px;
+}
+

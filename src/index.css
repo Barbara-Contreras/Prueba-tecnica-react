@@ -1,0 +1,7 @@
+body {
+    margin: 0; 
+    background: #FFFFFF;
+    font-family: 'Arial';
+    display: grid;
+    min-height: 100vh;
+}
