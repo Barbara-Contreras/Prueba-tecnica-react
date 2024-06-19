@@ -7,35 +7,36 @@
 }
 
 .item-container {
-    width: 100px;
+    width: 200px;
+    height: 220px;
     border: 1px solid #ccc;
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.1), 2px 4px 6px rgba(0, 0, 0, 0.1);
-    min-height: 50px;
-    /* Establece una altura mínima */
     text-align: center;
     /* Centra el texto dentro del contenedor */
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cohete-image {
-    width: 50%;
-    height: auto; 
-    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 50px;
+    height: auto;
+    z-index: 1; 
 }
 
 .item-title {
+    font-size: 20px;
     color: #FF93F4;
-    font-weight: bold;
+    font-weight: 700; /* Equivalente a bold */
     letter-spacing: 1px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 5px; /* Ajusta el espacio inferior del título */
 }
 
 .item-text {
-    font-size: 9px;
-    margin-top: 5px;  /* Añade espacio superior al texto */
+    font-size: 10px; /* Ajusta el tamaño de fuente del texto */
     letter-spacing: 0.5px;
 }
-

@@ -1,0 +1,9 @@
+.logo-image {
+    position: relative;
+    transform: rotate(270deg);
+    width: 20px;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
