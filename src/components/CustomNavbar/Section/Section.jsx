@@ -10,14 +10,14 @@ export function Section({ name }) {
     };
 
     return (
-        <section className="section-container">
+        <span className="section-container">
             <p
                 className={`section-name ${clicked ? 'clicked' : ''}`}
                 onClick={handleClick}
             >
                 {name}
             </p>
-        </section>
+        </span>
     );
 }
 

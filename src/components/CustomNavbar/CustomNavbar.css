@@ -1,0 +1,46 @@
+.custom-navbar-style {
+    background-color: #FF93F4;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+}
+
+.custom-nav-sections {
+    display: flex;
+}
+
+.section-container {
+    margin-left: 20px; /* Espacio entre las secciones */
+}
+
+/* Estilo para el botón de la hamburguesa */
+.navbar-toggler {
+    background-color: #FF93F4; /* Color de fondo del botón */
+    border-color: #FF93F4; /* Color del borde del botón */
+}
+
+/* Estilo para el contenedor del menú desplegable */
+.navbar-collapse {
+    background-color: #FF93F4; /* Color de fondo del menú desplegable */
+    padding: 10px; /* Espaciado interno del menú desplegable */
+}
+
+/* Estilo para los enlaces dentro del menú desplegable */
+.nav-link {
+    color: white; /* Color del texto de los enlaces */
+    font-weight: bold; /* Peso de la fuente de los enlaces */
+    text-transform: uppercase; /* Transformación a mayúsculas del texto */
+    margin: 5px 10px; /* Margen de los enlaces */
+}
+
+/* Estilo para un enlace activo dentro del menú desplegable */
+.nav-link.active {
+    color: #FFC0CB; /* Color del texto del enlace activo */
+    background-color: #FFF; /* Color de fondo del enlace activo */
+    border-radius: 5px; /* Radio de borde del enlace activo */
+    padding: 5px 10px; /* Espaciado interno del enlace activo */
+}

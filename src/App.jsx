@@ -1,10 +1,10 @@
 import './App.css'
 import { Header } from './components/Header/Header.jsx'
-import { Navbar } from './components/Navbar/Navbar.jsx'
+import { CustomNavbar } from './components/CustomNavbar/CustomNavbar.jsx'
 import { Banner } from './components/Banner/Banner.jsx'
 import { FeatureItem } from './components/FeatureItem/FeatureItem.jsx'
 import { Footer } from './components/Footer/Footer.jsx'
-import ellipseImage from './assets/img-ellipse.jpg';
+import ellipseImage from './assets/img-ellipse.png';
 
 
 export function App() {
@@ -23,7 +23,7 @@ export function App() {
     return (
         <>
             <Header />
-            <Navbar sections={sections} /> {/* Pasa las secciones como prop al Navbar */}
+            <CustomNavbar sections={sections} /> {/* Pasa las secciones como prop al Navbar */}
             <Banner />
             <img src={ellipseImage} alt="Elipse" className="ellipse-image" />
             <div className="feature-items-container">
