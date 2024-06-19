@@ -10,20 +10,18 @@ export function CustomNavbar({ sections }) {
     return (
         <div className="custom-navbar-style">
             <Logo />
-            <div className='custom-navbar-container'>
-                <Navbar collapseOnSelect expand="lg">
-                    <Navbar.Brand href="#home">
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ml-auto">
-                            {sections.map((section, index) => (
-                                <Section key={index} name={section.name} />
-                            ))}
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-            </div>
+            <Navbar collapseOnSelect expand="lg">
+                <Navbar.Brand href="#home">
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ml-auto">
+                        {sections.map((section, index) => (
+                            <Section key={index} name={section.name} />
+                        ))}
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
         </div>
     );
 }

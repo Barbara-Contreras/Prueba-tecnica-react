@@ -7,6 +7,7 @@ import { Footer } from './components/Footer/Footer.jsx'
 import ellipseImage from './assets/img-ellipse.png';
 
 
+
 export function App() {
     const sections = [
         { name: 'Inicio' },
